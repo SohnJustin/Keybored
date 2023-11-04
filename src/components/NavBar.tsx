@@ -1,6 +1,5 @@
 import React from "react";
 import Link from "next/link";
-import Slide from "./Slide";
 
 const NavBar = () => {
   return (
