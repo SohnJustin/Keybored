@@ -9,12 +9,16 @@ const Header = () => {
       <div className="container py-4">
         <div className="flex justify-between items-center=">
           <div className="hidden lg:flex gap-3">
-            <div className="headerIconWrapper text-2xl">
-              <BsLinkedin />
-            </div>
-            <div className="headerIconWrapper text-2xl">
-              <BsGithub />
-            </div>
+            <a href="https://www.linkedin.com/in/sohnjustin/" target="_blank">
+              <div className="headerIconWrapper text-2xl">
+                <BsLinkedin />
+              </div>
+            </a>
+            <a href="https://github.com/SohnJustin/" target="_blank">
+              <div className="headerIconWrapper text-2xl">
+                <BsGithub />
+              </div>
+            </a>
           </div>
           <div className="text-gray-500 text-[12px]">
             <b> FREE SHIPPING </b>FOR ORDERS OVER{" "}
