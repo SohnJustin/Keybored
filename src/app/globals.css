@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+  .headerIconWrapper{
+    @apply flex items-center justify-center hover:bg-gray-100 transition duration-300 cursor-pointer;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: lightgray;
+  }
+  .logoNameWrapper{
+    @apply flex items-center rounded-sm rounded-md justify-center hover:bg-gray-100 transition duration-300;
+    width: 140px;
+    height: 40px;
+    border: solid 1px lightgray;
+    border-radius: 10px;
+    box-shadow:0px;
+    overflow:hidden;
+    display:flex;
+    background-color: lightgray;
+  }
+}
